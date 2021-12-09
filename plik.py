@@ -29,5 +29,21 @@ cv2.imshow("obraz", img)
 # cv2.imshow("obraz2", tab)
 # cv2.waitKey()
 
-plt.hist(img.ravel(), 256, [0, 256])
-plt.waitforbuttonpress()
+
+# HISTOGRAMMMM
+
+
+# plt.subplot(3, 1, 1)
+# plt.hist(img[0].ravel(), 256, [0, 256])
+# # plt.waitforbuttonpress()
+
+# plt.subplot(3, 1, 2)
+# plt.hist(img[1].ravel(), 256, [0, 256])
+# # plt.waitforbuttonpress()
+
+# plt.subplot(3, 1, 3)
+# plt.hist(img[2].ravel(), 256, [0, 256])
+# plt.xlabel("kolory")
+
+# plt.waitforbuttonpress()
+cv2.destroyAllWindows()
